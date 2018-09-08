@@ -1,0 +1,370 @@
+/*
+ * Globals
+ */
+
+@media (min-width: 48em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+  max-width: 60rem;
+  padding: 25px 0px 50px 0px;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  margin-bottom: 3rem;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+/* Nav links */
+
+.nav-link {
+  position: relative;
+  padding: 1rem;
+  font-weight: 500;
+  color: #cdddeb;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* Active state gets a caret at the bottom */
+
+.nav-link.active {
+  color: #fff;
+}
+
+.nav-link.active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -.3rem;
+  vertical-align: middle;
+  content: "";
+  border-right: .3rem solid transparent;
+  border-bottom: .3rem solid;
+  border-left: .3rem solid transparent;
+}
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+}
+
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+/* Sidebar modules for boxing content */
+
+.sidebar-module {
+  padding: 1rem;
+  /*margin: 0 -1rem 1rem;*/
+}
+
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Pagination */
+
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    top: 20px;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {top: 0px; opacity: 0}
+    to {top: 20px; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {top: 10px; opacity: 0}
+    to {top: 20px; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+ @media all {
+ .page-break { display: none; }
+ }
+
+ @media print {
+ .page-break { display: block; page-break-before: always; }
+ }
+
+ body {
+    position: relative;
+}
+p {
+    margin: 20px 0;
+    page-break-inside: avoid;
+    position: relative;
+}
+
+div.onepage {page-break-after: always; }
+
+/* Radio Button CSS*/
+       label {
+           display: inline;
+       }
+       .radio-1 {
+           width: 193px;
+       }
+       .button-holder {
+           float: left;
+           margin-left: 4px;
+           margin-top: 10px;
+       }
+       .regular-radio {
+           display: none;
+       }
+       .regular-radio + label {
+           background-color: #fafafa;
+           border: 1px solid #cacece;
+           border-radius: 10px;
+           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 -15px 10px -12px rgba(0, 0, 0, 0.05) inset;
+           display: inline-block;
+           padding: 8px;
+           position: relative;
+
+       }
+       .regular-radio:checked + label:after {
+           background: none repeat scroll 0 0 #94E325;
+           border-radius: 40px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset;
+           content: " ";
+           font-size: 20px;
+           height: 7px;
+           left: 6px;
+           position: absolute;
+           top: 6px;
+           width: 7px;
+       }
+
+
+       .regular-radio:checked + label {
+           background-color: #add1b8;
+           border: 2px solid #adb8c0;
+           color: #99a1a7;
+           padding: 8px;
+       }
+       .regular-radio + label:active, .regular-radio:checked + label:active {
+           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+       }
+
+       /*----------------hungtq added--------------*/
+       .regular-radio + label:before {
+           background: none repeat scroll 0 0 #e9ecee;
+           border-radius: 40px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset;
+           content: " ";
+           font-size: 20px;
+           height: 7px;
+           left: 6px;
+           position: absolute;
+           top: 6px;
+           width: 7px;
+       }
+
+
+       #modalcontainer {
+           border: 15px;
+         }
+       /* The Modal (background) */
+       .modaladvice {
+           display: none; /* Hidden by default */
+           width: 100%; /* Full width */
+           padding: 25px 0px 25px 0px;
+         }
+
+       /* Modal Content */
+       .modaladvice-content {
+           /* position: fixed; */
+           top: 20px;
+           background-color: #fefefe;
+           width: 80%;
+       }
+
+       .modaladvice-header {
+           padding: 2px 16px;
+           background-color: #5cb85c;
+           color: white;
+       }
+
+       .modaladvice-body {padding: 2px 16px;}
