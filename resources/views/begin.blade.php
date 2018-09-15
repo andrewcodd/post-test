@@ -70,7 +70,7 @@ input::placeholder {
 
 
 @section ('content')
-<form action="assessmentreturn" method="post">
+<form action="userstore" method="post">
   <div id="one">
     <label for="name" style="color:white">Name:</label>
     <input type="text" name="name" value="" placeholder="First & Last Name" size="25"><br/>

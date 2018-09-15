@@ -72,7 +72,7 @@
  //src="{{ URL::asset('js\graph.js') }}">
  $(document).ready(function(){
  //$.ajax({
-//    url: "http://localhost:8000/answers",
+//    url: "http://avfww.com/answers",
 //    method: "GET",
 //    dataType: "text",
 //     success: function() {
@@ -609,7 +609,7 @@
  </canvas>
 </div>
 
-     <p class="lead blog-description" align="center">Explanation of Value Creation Score Framework <a href="http://localhost:8000/pdffolder/123.pdf" target="_blank">(opens pdf in new tab)</a></p>&nbsp;<br/>
+     <p class="lead blog-description" align="center">Explanation of Value Creation Score Framework <a href="http://avfww.com/pdffolder/123.pdf" target="_blank">(opens pdf in new tab)</a></p>&nbsp;<br/>
      <script>
 
      $(document).ready(function() {

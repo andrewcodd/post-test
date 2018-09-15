@@ -2,7 +2,7 @@
 
 // <?=json_encode($months);?>,
 //var url ="{{url('/answersL2')}}";
-/*$.getJSON("localhost:8000/answersL2",
+/*$.getJSON("avfww.com/answersL2",
  (function( data) {
   var jsonObj = JSON.parse(data);
 }));
@@ -16,7 +16,7 @@
 
 $(document).ready(function(){
   $.ajax({
-    url: "http://localhost:8000/answers",
+    url: "http://avfww.com/answers",
     method: "GET",
     dataType: "text",
     success: function(data) {

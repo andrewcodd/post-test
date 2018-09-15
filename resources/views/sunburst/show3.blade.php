@@ -39,7 +39,7 @@
 
      $(document).ready(function(){
      //$.ajax({
-   //    url: "http://localhost:8000/answers",
+   //    url: "http://avfww.com/answers",
    //    method: "GET",
    //    dataType: "text",
   //     success: function() {
