@@ -138,8 +138,8 @@
       <input type="radio" class="regular-radio" id="043" name="1A0222" value="0" checked><label for="043">Never</label>
       <input type="radio" class="regular-radio" id="044" name="1A0222" value="40"><label for="044">Rarely</label>
       <input type="radio" class="regular-radio" id="045" name="1A0222" value="50"><label for="045">Sometimes</label>
-      <input type="radio" class="regular-radio" id="004" name="1A0222" value="67"><label for="046">Often</label>
-      <input type="radio" class="regular-radio" id="005" name="1A0222" value="83"><label for="047">Mostly</label>
+      <input type="radio" class="regular-radio" id="046" name="1A0222" value="67"><label for="046">Often</label>
+      <input type="radio" class="regular-radio" id="047" name="1A0222" value="83"><label for="047">Mostly</label>
       <input type="radio" class="regular-radio" id="048" name="1A0222" value="100"><label for="048">Always</label>
     </div>
     </div>

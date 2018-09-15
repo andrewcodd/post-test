@@ -62,7 +62,7 @@ input::placeholder {
     </div>
     <div class="column">
 
-<div class="blog-header" style="margin:8px 0 15px 8px;">
+<div class="blog-header" style="margin:8px 0 8px 8px;">
 
     <h1 style="color:white">Value Score Assessment</h1>
     <p class="lead blog-description" style="margin:8px 0 8px 4px;">Enter your details to take the 5 minute assessment and uncover where you can create more value.</p>
@@ -85,7 +85,7 @@ input::placeholder {
     <input type="text" name="org" value="" placeholder="Unique Code for Participating Organisations" size="25"><br/>
 </div>
   <div id="two">
-  <p class="lead blog-description" style="margin:8px 0 8px -10px;">For A Benchmarking Comparison Select Your Current:</p>
+  <p class="lead blog-description" style="margin:8px 0 4px -10px;">For A Benchmarking Comparison Select Your Current:</p>
 
       <label for="size" style="color:white">Revenue in US$:</label><select id="size_list" name="size">
       <option></option>
@@ -103,7 +103,7 @@ input::placeholder {
 </div>
 </br>
 <div class="buttonHolder">
-<label for="agree" style="color:white; font-size:12px; margin:0px 0 15px 0px;">I Agree to take and submit my data as part of receiving my results of the Assessment:</label>&nbsp;<input type="checkbox" name="agree" value="agree"><br/>
+<label for="agree" style="color:white; font-size:12px; margin:0px 0 8px 0px;">I Agree to take and submit my data as part of receiving my results of the Assessment:</label>&nbsp;<input type="checkbox" name="agree" value="agree"><br/>
 
     <label for=""></label>
     <input type="submit" name="submit" value="Click to Submit" style="height:50px; width:200px">
