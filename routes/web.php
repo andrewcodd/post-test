@@ -28,7 +28,7 @@ use App\User;
   //    });
 
 Route::get("begin", 'UserController@userbegin');
-Route::post("assessmentreturn", 'UserController@assessmentreturn');
+Route::post("userstore", 'UserController@userstore');
 
 
 Route::get("create", 'testing@index');

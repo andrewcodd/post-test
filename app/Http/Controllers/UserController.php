@@ -37,7 +37,7 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-     public function assessmentreturn(Request $request)
+     public function userstore(Request $request)
      {
 
          $user = User::create(Request::all());
