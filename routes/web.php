@@ -95,8 +95,8 @@ $result =  test::where(function($query) use($var_id,$var_created_at,$var_token){
   $query->where('created_at','=', $var_created_at);
   $query->where('_token','=', $var_token);
 })->get()->toArray();
-$results = (array_slice(array_values($result), 2, 36));
-$var_user_id = (array_slice(array_values($result), 1, 1));
+$results = (array_slice(array_values($result[0]), 2, 36));
+$var_user_id = (array_slice(array_values($result[0]), 1, 1));
 
 //return $results;
 //$array = $result->toArray();
