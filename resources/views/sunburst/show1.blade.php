@@ -206,18 +206,18 @@
 
 
            let labels = [
-             "Assimilates",
              "Anatomises",
              "Alchemist",
+             "Assimilates",
              "Articulates",
              "Attuned",
              "Adaptable",
              "Anticipates",
              "Aligns",
              "Augments",
-             "Actions",
-             "Assured",
              "Agile",
+             "Assured",
+             "Accountable",
              "Financial Analysis",
              "Strategic Awareness",
              "Social Intelligence",
@@ -245,18 +245,18 @@
            backgroundColor: coloursL0,
          }],
          labels: [
-           "Assimilates",
            "Anatomises",
            "Alchemist",
+           "Assimilates",
            "Articulates",
            "Attuned",
            "Adaptable",
            "Anticipates",
            "Aligns",
            "Augments",
-           "Actions",
-           "Assured",
            "Agile",
+           "Assured",
+           "Accountable",
            "Financial Analysis",
            "Strategic Awareness",
            "Social Intelligence",
@@ -560,13 +560,13 @@
              modalI2.style.display= "block"
              else if (label == "Impact")
              modalI3.style.display= "block"
-             else if (label == "Agile")
+             else if (label == "Accountable")
              modalA12.style.display= "block"
-             else if (label == "Assimilates")
-             modalA01.style.display= "block"
              else if (label == "Anatomises")
-             modalA02.style.display= "block"
+             modalA01.style.display= "block"
              else if (label == "Alchemist")
+             modalA02.style.display= "block"
+             else if (label == "Assimilates")
              modalA03.style.display= "block"
              else if (label == "Articulates")
              modalA04.style.display= "block"
@@ -580,7 +580,7 @@
              modalA08.style.display= "block"
              else if (label == "Augments")
              modalA09.style.display= "block"
-             else if (label == "Actions")
+             else if (label == "Agile")
              modalA10.style.display= "block"
              else if (label == "Assured")
              modalA11.style.display= "block"
@@ -690,18 +690,18 @@
         console.log(answersL3);
 
                  var labels = [
-                       "Assimilates",
                        "Anatomises",
                        "Alchemist",
+                       "Assimilates",
                        "Articulates",
                        "Attuned",
                        "Adaptable",
                        "Anticipates",
                        "Aligns",
                        "Augments",
-                       "Actions",
+                       "Agile",
                        "Assured",
-                       "Agile"];
+                       "Accountable"];
 
                    var obj = {};
                    for (var i = 0; i < labels.length; i++) {
@@ -775,20 +775,22 @@ console.log("failure");
 
 
      </script>
-</div>
-<div class="row align-items-center">
-<div class="col-sm-6"><h4>Summary By Individual Traits<h4></div>
-<div class="col-sm-6"></div>
-</div>
-<div class="row align-items-center">
-<div class="col-sm-6">
+
+<div class="row align-items-center" style="margin:8px 0 15px 0;"><h2>Summary By Individual Traits<h2></div>
+<div class="row align-items-center" style="border: #cdcdcd medium solid; border-radius: 10px;"  >
+<div class="col-sm-2"></div>
+<div class="col-sm-4">
   <div class="canvas-detail-canvas" id="container" style="width:200; height:200; margin-bottom:50px">
 </div>
 </div>
-<div class="col-sm-6"></div>
-</div>
+<div class="col-sm-6">
+
+<h5>Sample size too small (n records less than 100) to draw peer comparisons against company size; org level; industry and country.</h5>
+<h6>Check back later using your <a href= {{ $userLocate }}>unique link</a> when the benchmark database has more records.</h6>
 
 </div>
+</div>
+
 
 
 @endsection

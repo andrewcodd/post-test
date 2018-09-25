@@ -1,7 +1,7 @@
 
 <!-- The Modal -->
 
-<div id="myModalA01" class="modaladvice">
+<div id="myModalA03" class="modaladvice">
 
   <!-- Modal content -->
   <div class="modaladvice-content">
@@ -19,7 +19,7 @@
 
 </div>
 
-<div id="myModalA02" class="modaladvice">
+<div id="myModalA01" class="modaladvice">
 
   <!-- Modal content -->
   <div class="modaladvice-content">
@@ -38,7 +38,7 @@
 </div>
 
 
-<div id="myModalA03" class="modaladvice">
+<div id="myModalA02" class="modaladvice">
 
   <!-- Modal content -->
   <div class="modaladvice-content">
@@ -171,7 +171,7 @@
   <!-- Modal content -->
   <div class="modaladvice-content">
     <div class="modaladvice-header" >
-      <h2 style="color:white;">Actions</h2>
+      <h2 style="color:white;">Agile</h2>
     </div>
     <div class="modaladvice-body">
     <p>Puts insights into practice so that they create real value.</p>
@@ -207,7 +207,7 @@
   <!-- Modal content -->
   <div class="modaladvice-content">
     <div class="modaladvice-header" >
-      <h2 style="color:white;">Agile</h2>
+      <h2 style="color:white;">Accountable</h2>
     </div>
     <div class="modaladvice-body">
       <p>Moves quickly and easily to ensure value creating decisions are made in reality.</p>

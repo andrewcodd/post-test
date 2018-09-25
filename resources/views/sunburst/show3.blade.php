@@ -1,7 +1,7 @@
 @extends ('layouts.master')
-
+<div class="noprint">
 <button class="btn-print" style="margin-top:25px; margin:0 auto; display:block;">Print Out Assessment</button>
-
+</div>
 
 <h2 style="margin-top:25px;margin-left:25px;">Value Creation Potential</h2>
 
@@ -185,24 +185,24 @@
            backgroundColor: coloursL0,
          }],
          labels: [
-           "Appetite for acumen",
-           "Articulates",
-           "Assimilates",
            "Anatomises",
+           "Alchemist",
+           "Assimilates",
+           "Articulates",
            "Attuned",
            "Adaptable",
-           "Accessible",
            "Anticipates",
-           "Assured",
-           "Authentic",
-           "Agile",
            "Aligns",
-           "Financial Acumen",
-           "Strategic Analysis",
-           "Social Awareness",
-           "Engagement",
+           "Augments",
+           "Agile",
+           "Assured",
+           "Accountable",
+           "Financial Analysis",
+           "Strategic Awareness",
+           "Social Intelligence",
+           "Engaged",
            "Tech & Data Savvy",
-           "Commercial Savvy",
+           "Sparring Partner",
            "Insight",
            "Influence",
            "Impact",
@@ -278,9 +278,7 @@
 
   <div class="page-break"></div>
 
-  <div class="row align-items-center" style="width: 100%; padding: 25px 0px 25px 0px;">
-  <div class="col-sm-6"><h4>Summary By Individual Traits<h4></div>
-  <div class="col-sm-6"></div>
+
   <script>
   $(document).ready(function(){
 
@@ -340,19 +338,19 @@
      var answersL3 = [AA11Sum, AA12Sum, AA21Sum, AA22Sum, AA31Sum, AA32Sum, AA41Sum, AA42Sum, AA51Sum, AA52Sum, AA61Sum, AA62Sum];
      console.log(answersL3);
 
-              var labels = [
-                    "Assimilates",
-                    "Anatomises",
-                    "Alchemist",
-                    "Articulates",
-                    "Attuned",
-                    "Adaptable",
-                    "Anticipates",
-                    "Aligns",
-                    "Augments",
-                    "Actions",
-                    "Assured",
-                    "Agile"];
+     var labels = [
+           "Anatomises",
+           "Alchemist",
+           "Assimilates",
+           "Articulates",
+           "Attuned",
+           "Adaptable",
+           "Anticipates",
+           "Aligns",
+           "Augments",
+           "Agile",
+           "Assured",
+           "Accountable"];
 
                 var obj = {};
                 for (var i = 0; i < labels.length; i++) {
@@ -416,23 +414,27 @@
                });
      </script>
 
-  </div>
-  <div class="row align-items-center">
-  <div class="col-sm-6">
-    <div class="canvas-detail-canvas" id="container" style="width:200px; height:200px; margin-bottom:50px">
 
+     <div class="row align-items-center" style="margin:8px 0 15px 0;"><h2>Summary By Individual Traits<h2></div>
+     <div class="row align-items-center" style="border: #cdcdcd medium solid; border-radius: 10px;"  >
+     <div class="col-sm-2"></div>
+     <div class="col-sm-4">
+       <div class="canvas-detail-canvas" id="container" style="width:200; height:200; margin-bottom:50px">
+     </div>
+     </div>
+     <div class="col-sm-6">
 
-  </div>
-  </div>
-  <div class="col-sm-6">
+     <h5>Sample size too small (n records less than 100) to draw peer comparisons against company size; org level; industry and country.</h5>
+     <h6>Check back later using your <a href= {{ $userLocate }}>unique link</a> when the benchmark database has more records.</h6>
 
-  </div>
+     </div>
+     </div>
 
 
   <div class="page-break"></div>
   </div>
 
-  <div class="col-sm-6" style="width: 100%; padding: 50px 0px 0px 0px;"><h4>Pointers for Improvement<h4></div>
+  <div class="col-sm-6" style="width: 100%; padding: 50px 0px 0px 0px;"><h2>Pointers for Improvement<h2></div>
 <div class="modalcontainer" style="margin-bottom:50px">
  <div class="row align-items-center mt-2">
 
@@ -469,55 +471,55 @@ var AA62Sum = Math.round(answers.slice(33,36).reduce((a,b)=>(a+Math.abs(b)),0)/s
 
 var thresh = 67;
 
-if (AA11Sum > thresh )
+if (AA11Sum < thresh )
 {
 document.getElementById("myModalA01").style.display = "inline-block";
 }
-if (AA12Sum > thresh )
+if (AA12Sum < thresh )
 {
 document.getElementById("myModalA02").style.display = "inline-block";
 }
-if (AA12Sum > thresh )
+if (AA12Sum < thresh )
 {
 document.getElementById("myModalA03").style.display = "inline-block";
 }
-if (AA21Sum > thresh )
+if (AA21Sum < thresh )
 {
 document.getElementById("myModalA04").style.display = "inline-block";
 }
-if (AA22Sum > thresh )
+if (AA22Sum < thresh )
 {
 document.getElementById("myModalA05").style.display = "inline-block";
 }
-if (AA31Sum > thresh )
+if (AA31Sum < thresh )
 {
 document.getElementById("myModalA06").style.display = "inline-block";
 }
-if (AA32Sum > thresh )
+if (AA32Sum < thresh )
 {
 document.getElementById("myModalA07").style.display = "inline-block";
 }
-if (AA41Sum > thresh )
+if (AA41Sum < thresh )
 {
 document.getElementById("myModalA08").style.display = "inline-block";
 }
-if (AA42Sum > thresh )
+if (AA42Sum < thresh )
 {
 document.getElementById("myModalA09").style.display = "inline-block";
 }
-if (AA51Sum > thresh )
+if (AA51Sum < thresh )
 {
 document.getElementById("myModalA10").style.display = "inline-block";
 }
-if (AA52Sum > thresh )
+if (AA52Sum < thresh )
 {
 document.getElementById("myModalA11").style.display = "inline-block";
 }
-if (AA61Sum > thresh )
+if (AA61Sum < thresh )
 {
 document.getElementById("myModalA12").style.display = "inline-block";
 }
-if (AA62Sum > thresh )
+if (AA62Sum < thresh )
 {
 document.getElementById("myModalA02").style.display = "inline-block";
 }

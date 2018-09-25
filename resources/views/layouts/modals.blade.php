@@ -152,13 +152,13 @@
 
 </div>
 
-<div id="myModalA01" class="modal">
+<div id="myModalA03" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" >
       <h2 style="color:white;">Assimilates</h2>
-      <span class="close" id="spanA01">&times;</span>
+      <span class="close" id="spanA03">&times;</span>
     </div>
     <div class="modal-body">
       <p>Takes in what is happening across their organisation’s value chain, various conversations, financial models, trends, etc… to fully appreciate and understand what is going on and drives Net Present Value (NPV).</p>
@@ -171,13 +171,13 @@
 
 </div>
 
-<div id="myModalA02" class="modal">
+<div id="myModalA01" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" >
       <h2 style="color:white;">Anatomises</h2>
-      <span class="close" id="spanA02">&times;</span>
+      <span class="close" id="spanA01">&times;</span>
     </div>
     <div class="modal-body">
       <p>Deconstructs an organisation’s value chain into its component parts (i.e. value drivers) to examine them in more detail.</p>
@@ -191,13 +191,13 @@
 </div>
 
 
-<div id="myModalA03" class="modal">
+<div id="myModalA02" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" >
       <h2 style="color:white;">Alchemist</h2>
-      <span class="close" id="spanA03">&times;</span>
+      <span class="close" id="spanA02">&times;</span>
     </div>
     <div class="modal-body">
     <p>Transforms and crafts financial data into increasingly more valuable and productive insights.</p>
@@ -331,7 +331,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" >
-      <h2 style="color:white;">Actions</h2>
+      <h2 style="color:white;">Agile</h2>
       <span class="close" id="spanA10">&times;</span>
     </div>
     <div class="modal-body">
@@ -369,7 +369,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header" >
-      <h2 style="color:white;">Agile</h2>
+      <h2 style="color:white;">Accountable</h2>
       <span class="close" id="spanA12">&times;</span>
     </div>
     <div class="modal-body">

@@ -3,7 +3,7 @@
 
 <div class="blog-header" style="margin:8px 0 15px 0;">
   <div class="container">
-    <h2>Value Creation Potential Assessment</h2>
+    <h2>Value Creation Potential Assessment (Beta)</h2>
     <p class="lead blog-description">Answer these questions to get your VC Potential Score</p>
      </div>
 </div>
@@ -23,7 +23,7 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0111">Q1. When you create a model that finally produces the results you expect you no longer change it.</label></div>
+      <div class="col-sm-6"><label for="1A0111">Q1. You deconstruct big problems from a dense mass into smaller interconnected problems rather than going for a grand unifying solution.</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
         <input type="radio" class="regular-radio" id="001" name="1A0111" value="100" checked><label for="001">Never</label>
@@ -38,7 +38,7 @@
 
 
   <div class="row align-items-center mt-2">
-    <div class="col-sm-6"><label for="1A0211">Q2. When you run into a business problem you don't know how to answer you say I don't know but maybe I can find out and you work as hard as you can to do that.</label></div>
+    <div class="col-sm-6"><label for="1A0211">Q2. When you create a model that finally produces the results you expect you no longer change it.</label></div>
     <div class="col-sm-6">
       <div class="button-holder">
       <input type="radio" class="regular-radio" id="007" name="1A0211" value="0" checked><label for="007">Never</label>
@@ -118,7 +118,7 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0122">Q7. You tend to question everything, dig deeper, try to understand the context, origin and history of things, put them into a new perspective, brainstorm new angles, and even play with ideas.</label></div>
+      <div class="col-sm-6"><label for="1A0122">Q7. You always seek out new options, identify bottlenecks and the paths of least resistance..</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
         <input type="radio" class="regular-radio" id="037" name="1A0122" value="0" checked><label for="037">Never</label>
@@ -174,7 +174,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-  <div class="col-sm-6"><label for="1A0522">Q11. You continuously apply your tech & data knowledge to ensure your proficiency and adoption of relevant technologies to better create value for stakeholders.</label></div>
+  <div class="col-sm-6"><label for="1A0522">Q11. You enhance your skill sets in statistics, data analysis, data visulaisation and business partnering to support rapid decision making and performance management.</label></div>
   <div class="col-sm-6">
     <div class="button-holder">
     <input type="radio" class="regular-radio" id="061" name="1A0522" value="0" checked><label for="061">Never</label>
@@ -188,7 +188,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-<div class="col-sm-6"><label for="1A0622">Q12. You articulate what value you have provided your organisation in the last month in return for your salary that could not be bought elsewhere for less.</label></div>
+<div class="col-sm-6"><label for="1A0622">Q12. You know the percentage of your weekly time spent on value creation activities.</label></div>
 <div class="col-sm-6">
   <div class="button-holder">
   <input type="radio" class="regular-radio" id="067" name="1A0622" value="0" checked><label for="067">Never</label>
@@ -211,21 +211,21 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0113">Q13. You like taking on short term project assignments where you are expected to learn a lot about the new subject matter in a short period of time before moving onto the next one.</label></div>
+      <div class="col-sm-6"><label for="1A0113">Q13. You don't look past the obvious and particularly when you're busy you stop at first answers.</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
-        <input type="radio" class="regular-radio" id="073" name="1A0113" value="0" checked><label for="073">Never</label>
-        <input type="radio" class="regular-radio" id="074" name="1A0113" value="40"><label for="074">Rarely</label>
-        <input type="radio" class="regular-radio" id="075" name="1A0113" value="50"><label for="075">Sometimes</label>
-        <input type="radio" class="regular-radio" id="076" name="1A0113" value="67"><label for="076">Often</label>
-        <input type="radio" class="regular-radio" id="077" name="1A0113" value="83"><label for="077">Mostly</label>
-        <input type="radio" class="regular-radio" id="078" name="1A0113" value="100"><label for="078">Always</label>
+        <input type="radio" class="regular-radio" id="073" name="1A0113" value="100" checked><label for="073">Never</label>
+        <input type="radio" class="regular-radio" id="074" name="1A0113" value="83"><label for="074">Rarely</label>
+        <input type="radio" class="regular-radio" id="075" name="1A0113" value="67"><label for="075">Sometimes</label>
+        <input type="radio" class="regular-radio" id="076" name="1A0113" value="50"><label for="076">Often</label>
+        <input type="radio" class="regular-radio" id="077" name="1A0113" value="40"><label for="077">Mostly</label>
+        <input type="radio" class="regular-radio" id="078" name="1A0113" value="0"><label for="078">Always</label>
       </div>
       </div>
   </div>
 
   <div class="row align-items-center mt-2">
-    <div class="col-sm-6"><label for="1A0213">Q14. You regularly aim to understand the implications of data and information versus getting bogged down in data.</label></div>
+    <div class="col-sm-6"><label for="1A0213">Q14. You like taking on short term project assignments where you are expected to learn a lot about the new subject matter in a short period of time before moving onto the next one.</label></div>
     <div class="col-sm-6">
       <div class="button-holder">
       <input type="radio" class="regular-radio" id="079" name="1A0213" value="0" checked><label for="079">Never</label>
@@ -300,7 +300,7 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0121">Q19. You deconstruct big problems from a dense mass into smaller interconnected problems rather than going for a grand unifying solution</label></div>
+      <div class="col-sm-6"><label for="1A0121">Q19. When you run into a business problem you don't know how to answer you say I don't know but maybe I can find out and you work as hard as you can to do that.</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
         <input type="radio" class="regular-radio" id="097" name="1A0121" value="0" checked><label for="097">Never</label>
@@ -356,7 +356,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-  <div class="col-sm-6"><label for="1A0521">Q23. You check in regularly with managers & stakeholders that you are adding value to them and positively impacting them so that you continue to remain relevant.</label></div>
+  <div class="col-sm-6"><label for="1A0521">Q23. You develop innovative strategies and achieve performance levels that eclipse your peers.</label></div>
   <div class="col-sm-6">
     <div class="button-holder">
     <input type="radio" class="regular-radio" id="121" name="1A0521" value="0" checked><label for="121">Never</label>
@@ -370,7 +370,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-<div class="col-sm-6"><label for="1A0621">Q24. You can communicate a compelling and inspired vision or sense of core purpose around the work you do.</label></div>
+<div class="col-sm-6"><label for="1A0621">Q24. You check in regularly with managers & stakeholders that you are adding value to them and positively impacting them so that you continue to remain relevant.</label></div>
 <div class="col-sm-6">
   <div class="button-holder">
   <input type="radio" class="regular-radio" id="127" name="1A0621" value="0" checked><label for="127">Never</label>
@@ -393,7 +393,7 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0112">Q25. You seek to connect your mental models to reality, and refine them by experience to assimilate new ones.</label></div>
+      <div class="col-sm-6"><label for="1A0112">Q25. You tend to question everything, dig deeper, try to understand the context, origin and history of things, put them into a new perspective, brainstorm new angles, and even play with ideas.</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
         <input type="radio" class="regular-radio" id="133" name="1A0112" value="0" checked><label for="133">Never</label>
@@ -407,7 +407,7 @@
   </div>
 
   <div class="row align-items-center mt-2">
-    <div class="col-sm-6"><label for="1A0212">Q26. You always seek out new options, identify bottlenecks and the paths of least resistance.</label></div>
+    <div class="col-sm-6"><label for="1A0212">Q26. You seek to connect your mental models to reality, and refine them by experience to assimilate new ones..</label></div>
     <div class="col-sm-6">
       <div class="button-holder">
       <input type="radio" class="regular-radio" id="139" name="1A0212" value="0" checked><label for="139">Never</label>
@@ -486,15 +486,15 @@
 
 
     <div class="row align-items-center mt-2">
-      <div class="col-sm-6"><label for="1A0123">Q31. You don't look past the obvious and particularly when you're busy you stop at first answers.</label></div>
+      <div class="col-sm-6"><label for="1A0123">Q31. You regularly aim to understand the implications of data and information versus getting bogged down in data.</label></div>
       <div class="col-sm-6">
         <div class="button-holder">
-        <input type="radio" class="regular-radio" id="169" name="1A0123" value="100" checked><label for="169">Never</label>
-        <input type="radio" class="regular-radio" id="170" name="1A0123" value="83"><label for="170">Rarely</label>
-        <input type="radio" class="regular-radio" id="171" name="1A0123" value="67"><label for="171">Sometimes</label>
-        <input type="radio" class="regular-radio" id="172" name="1A0123" value="50"><label for="172">Often</label>
-        <input type="radio" class="regular-radio" id="173" name="1A0123" value="40"><label for="173">Mostly</label>
-        <input type="radio" class="regular-radio" id="174" name="1A0123" value="0"><label for="174">Always</label>
+        <input type="radio" class="regular-radio" id="169" name="1A0123" value="0" checked><label for="169">Never</label>
+        <input type="radio" class="regular-radio" id="170" name="1A0123" value="40"><label for="170">Rarely</label>
+        <input type="radio" class="regular-radio" id="171" name="1A0123" value="50"><label for="171">Sometimes</label>
+        <input type="radio" class="regular-radio" id="172" name="1A0123" value="67"><label for="172">Often</label>
+        <input type="radio" class="regular-radio" id="173" name="1A0123" value="83"><label for="173">Mostly</label>
+        <input type="radio" class="regular-radio" id="174" name="1A0123" value="100"><label for="174">Always</label>
       </div>
       </div>
   </div>
@@ -542,7 +542,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-  <div class="col-sm-6"><label for="1A0523">Q35. You keep a value log that you update regularly to keep track of all the value you have created directedly or indirectly.</label></div>
+  <div class="col-sm-6"><label for="1A0523">Q35. You leverage digital technologies like Robotic Process Automation and Machine Learning to ever improve the service and efficiency you offer stakeholders and so drive highly significant business improvements.</label></div>
   <div class="col-sm-6">
     <div class="button-holder">
     <input type="radio" class="regular-radio" id="193" name="1A0523" value="0" checked><label for="193">Never</label>
@@ -556,7 +556,7 @@
 </div>
 
 <div class="row align-items-center mt-2">
-<div class="col-sm-6"><label for="1A0623">Q36. You seek to disclose and reveal expectations, validate them and even renegotiate them if they add more value to the business.</label></div>
+<div class="col-sm-6"><label for="1A0623">Q36. You keep a value log that you update regularly to keep track of all the value you have created directedly or indirectly.</label></div>
 <div class="col-sm-6">
   <div class="button-holder">
   <input type="radio" class="regular-radio" id="199" name="1A0623" value="0" checked><label for="199">Never</label>
