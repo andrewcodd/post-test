@@ -446,7 +446,7 @@
   <div class="page-break"></div>
   </div>
 
-  <div class="col-sm-6" style="width: 100%;  margin-left:30px;"<h2>Pointers for Improvement<h2></div>
+  <div class="col-sm-6" style="width: 100%;  margin-left:30px;"><h2>Pointers for Improvement<h2></div>
 <div class="modalcontainer" style="margin-bottom:50px; margin-left:25px;">
  <div class="row align-items-center mt-2">
 
