@@ -1,5 +1,5 @@
 @extends ('layouts.master')
-<div class="noprint">
+<div class="noPrint">
 <button class="btn-print" style="margin-top:25px; margin:0 auto; display:block;">Print Out Assessment</button>
 </div>
 
@@ -31,9 +31,9 @@
 
 
 
-  <div class="container" style="margin-bottom:100px">
+  <div class="container" style="margin-bottom:100px; margin-left:25px;">
 
-   <div class="row align-items-center mt-2" width="200" height="200">
+   <div class="row align-items-center mt-2" style="margin-left:25px;" width="200" height="200">
 
      <script type="text/javascript">
 
@@ -266,8 +266,8 @@
 
      </script>
 
-   <div class="row align-items-center" style="width:600; height:600; margin-top:0px">
-     <canvas class="canvas-detail-canvas" id="chartarea" style="width:600; height:600; margin-bottom:20px">
+   <div class="row align-items-center" style="width:600; height:600; margin-top:0px; margin-left:25px;">
+     <canvas class="canvas-detail-canvas" id="chartarea" style="width:600; height:600; margin-bottom:20px; margin-left:25px;">
    </canvas>
   </div>
 
@@ -415,14 +415,14 @@
      </script>
 
 
-     <div class="row align-items-center" style="margin:8px 0 15px 0;"><h2>Summary By Individual Traits<h2></div>
-     <div class="row align-items-center" style="border: #cdcdcd medium solid; border-radius: 10px;"  >
-     <div class="col-sm-2"></div>
-     <div class="col-sm-4">
+     <div class="row align-items-center" style="margin:8px 25px 15px 0;"><h2>Summary By Individual Traits<h2></div>
+     <div class="row align-items-center" style="border: #cdcdcd medium solid; border-radius: 10px; margin:8px 25px 15px 0;">
+     <div class="col-sm-2" style="margin:8px 0px 8px 0;"></div>
+     <div class="col-sm-4" style="margin:8px 0px 8px 0;">
        <div class="canvas-detail-canvas" id="container" style="width:200; height:200; margin-bottom:50px">
      </div>
      </div>
-     <div class="col-sm-6">
+     <div class="col-sm-6"style="margin:8px 0px 8px 0;">
 
      <h5>Sample size too small (n records less than 100) to draw peer comparisons against company size; org level; industry and country.</h5>
      <h6>Check back later using your <a href='#'>unique link</a> when the benchmark database has more records.</h6>
@@ -434,8 +434,8 @@
   <div class="page-break"></div>
   </div>
 
-  <div class="col-sm-6" style="width: 100%; padding: 50px 0px 0px 0px;"><h2>Pointers for Improvement<h2></div>
-<div class="modalcontainer" style="margin-bottom:50px">
+  <div class="col-sm-6" style="width: 100%; padding: 50px 25px 0px 0px;"><h2>Pointers for Improvement<h2></div>
+<div class="modalcontainer" style="margin-bottom:50px; margin-left:25px;">
  <div class="row align-items-center mt-2">
 
 @include ('layouts.modaladvice')

@@ -266,8 +266,8 @@ h6,
 
  @media print {
  .page-break { display: block; page-break-before: always; }
- .noprint{
-     display:none;
+ .noPrint{
+     display:none !important;
  }
  }
 
