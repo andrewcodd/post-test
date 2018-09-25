@@ -266,9 +266,12 @@ h6,
 
  @media print {
  .page-break { display: block; page-break-before: always; }
- .noPrint{
-     display:none !important;
  }
+
+ @media print {
+     #myPrntbtn {
+         display :  none;
+     }
  }
 
  body {
