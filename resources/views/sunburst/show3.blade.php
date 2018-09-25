@@ -1,5 +1,19 @@
 @extends ('layouts.master')
-<button id ="myPrntbtn" class="btn-print" style="margin-top:25px; margin:0 auto; display:block;">Click to Print Out Assessment</button>
+<script type="text/javascript">
+    function printpage() {
+        //Get the print button and put it into a variable
+        var printButton = document.getElementById("printpagebutton");
+        //Set the print button visibility to 'hidden'
+        printButton.style.visibility = 'hidden';
+        //Print the page content
+        window.print()
+        //Set the print button to 'visible' again
+        //[Delete this line if you want it to stay hidden after printing]
+        printButton.style.visibility = 'visible';
+    }
+</script>
+
+<input id="printpagebutton" style="margin-top:25px; margin:0 auto; display:block;" type="button" value="Click to Print Out Assessment" onclick="printpage()"/>
 
 <h2 style="margin-top:25px;margin-left:25px;">Value Creation Potential</h2>
 
@@ -432,7 +446,7 @@
   <div class="page-break"></div>
   </div>
 
-  <div class="col-sm-6" style="width: 100%; padding: 50px 50px 0px 0px;"><h2>Pointers for Improvement<h2></div>
+  <div class="col-sm-6" style="width: 100%;  margin-left:30px;"<h2>Pointers for Improvement<h2></div>
 <div class="modalcontainer" style="margin-bottom:50px; margin-left:25px;">
  <div class="row align-items-center mt-2">
 

@@ -268,11 +268,6 @@ h6,
  .page-break { display: block; page-break-before: always; }
  }
 
- @media print {
-     #myPrntbtn {
-         display :  none;
-     }
- }
 
  body {
     position: relative;
