@@ -39,6 +39,17 @@ class UserController extends Controller
      */
      public function userstore(Request $request)
      {
+       $this->validate(request(),[
+         'agree' => 'required',
+         'name' => 'required|min:3',
+         'email' => 'required|email',
+         'size' => 'not_in:-- choose one --,',
+          'industry' => 'not_in:-- choose one --,',
+           'country' => 'not_in:-- choose one --,',
+           'level' => 'not_in:-- choose one --,'
+
+       ]);
+
 
          $user = User::create(Request::all());
    //        $array = $object->toArray();

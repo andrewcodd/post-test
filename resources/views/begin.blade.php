@@ -27,6 +27,33 @@
     clear: both;
 }
 
+#example2
+ {
+     width: 1040px;
+     background-color: #cccccc; /* Used if the image is unavailable */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     height:188px;
+
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
 #one label {
     width: 10em;
     text-align: right;
@@ -57,6 +84,8 @@ input::placeholder {
 
 <div style="background-color=#3f3f3f">
 <div class="container" id="example1">
+
+
 <div class="row">
     <div class="column">
     </div>
@@ -69,7 +98,6 @@ input::placeholder {
      </div>
 
 
-@section ('content')
 <form action="userstore" method="post">
   <div id="one">
     <label for="name" style="color:white">Name:</label>
@@ -84,6 +112,7 @@ input::placeholder {
     <label for="org" style="color:white">Org code:</label>
     <input type="text" name="org" value="" placeholder="Optional Code for Participating Organisations" size="25"><br/>
 </div>
+
   <div id="two">
   <p class="lead blog-description" style="margin:8px 0 0px -10px;">For A Benchmarking Comparison Select Your Current:</p>
 
@@ -165,8 +194,36 @@ input::placeholder {
 </div>
 </form>
 
+
 </div>
 </div>
+
+
+
+
 </div>
+
+
+
+
 </div>
+
+
+
+  @if (count($errors))
+  <div class="container" id="example2">
+  <div class="alert alert-danger">
+  </ul>
+    <ul>
+      @foreach ($errors->all() as $error)
+      <li>{{ $error }}</li>
+      @endforeach
+  </div>
+</div>
+
+  @endif
+
+
+  @section ('content')
+
 @endsection
