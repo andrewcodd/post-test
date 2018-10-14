@@ -442,7 +442,9 @@
      </div>
      </div>
 
+@endsection
 
+@section('content2')
   <div class="page-break"></div>
   </div>
 
