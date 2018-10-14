@@ -68,6 +68,47 @@
 
  if (token['content'] ==  tempToken['_token'])
  {
+
+   HTML  SCSS  JS Result
+   EDIT ON
+    var $el = $("#very-specific-design");
+   var elHeight = $el.outerHeight();
+   var elWidth = $el.outerWidth();
+
+   var $wrapper = $("#scaleable-wrapper");
+
+   $wrapper.resizable({
+     resize: doResize
+   });
+
+   function doResize(event, ui) {
+
+     var scale, origin;
+
+     scale = Math.min(
+       ui.size.width / elWidth,
+       ui.size.height / elHeight
+     );
+
+     $el.css({
+       transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
+     });
+
+   }
+
+   var starterData = {
+     size: {
+       width: $wrapper.width(),
+       height: $wrapper.height()
+     }
+   }
+   doResize(null, starterData);
+
+
+
+
+
+
     console.log("success")
  //src="{{ URL::asset('js\graph.js') }}">
  $(document).ready(function(){
@@ -605,8 +646,14 @@
 
 </script>
  <div class="row align-items-center" style="width:200; height:200; margin-top:0px">
+   <div class="scaleable-wrapper" id="scaleable-wrapper">
+
+  <div class="very-specific-design" id="very-specific-design">
    <canvas class="canvas-detail-canvas" id="chartarea" style="width:200; height:200; margin-bottom:20px">
  </canvas>
+</div>
+
+</div>
 </div>
 
      <p class="lead blog-description" align="center">Explanation of Value Creation Score Framework <a href="http://avfww.com/pdffolder/123.pdf" target="_blank">(opens pdf in new tab)</a></p>&nbsp;<br/>
