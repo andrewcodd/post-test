@@ -439,12 +439,8 @@
      <h5>Sample size too small (n records less than 100) to draw peer comparisons against company size; org level; industry and country.</h5>
      <h6>Check back later using your <a href='#'>unique link</a> when the benchmark database has more records.</h6>
 
-     </div>
-     </div>
 
-@endsection
 
-@section('content2')
   <div class="page-break"></div>
   </div>
 
@@ -456,7 +452,8 @@
 
 </div>
 </div>
-
+</div>
+</div>
 <script>
 
 var tempArray = <?php echo json_encode($results); ?>;
