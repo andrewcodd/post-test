@@ -184,7 +184,7 @@ input::placeholder {
 </div>
 </br>
 <div class="buttonHolder" style="margin:-20px 0 2px 4px">
-<label for="agree" style="color:white; font-size:12px; margin:0px 0 8px 0px;">I Agree to take and submit my data <a href= "/privacy">(see privacy policy)</a> to receive my Free Assessment:</label>&nbsp;<input type="checkbox" name="agree" value="agree"><br/>
+<label for="agree" style="color:white; font-size:12px; margin:0px 0 8px 10px;">I Agree to take and submit my data <a href= "/privacy">(see privacy policy)</a> to receive my Free Assessment:</label>&nbsp;<input type="checkbox" name="agree" value="agree"><br/>
 
     <label for=""></label>
     <input type="submit" name="submit" value="Click to Submit" style="height:50px; width:200px">

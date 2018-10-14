@@ -278,8 +278,8 @@
 
      </script>
 
-   <div class="row align-items-center" style="width:600; height:600; margin-top:0px; margin-left:25px;">
-     <canvas class="canvas-detail-canvas" id="chartarea" style="width:600; height:600; margin-bottom:20px; margin-left:25px;">
+   <div class="row align-items-center" style="width:600; height:600; margin-top:0px; margin-left:15px; margin-bottom:30px;">
+     <canvas class="canvas-detail-canvas" id="chartarea" style="width:600; height:600; margin-bottom:20px; margin-left:15px;">
    </canvas>
   </div>
 
@@ -431,7 +431,7 @@
      <div class="row align-items-center" style="border: #cdcdcd medium solid; border-radius: 10px; margin:8px 25px 15px 0;">
      <div class="col-sm-2" style="margin:8px 0px 8px 0;"></div>
      <div class="col-sm-4" style="margin:8px 0px 8px 0;">
-       <div class="canvas-detail-canvas" id="container" style="width:200; height:200; margin-bottom:50px">
+       <div class="canvas-detail-canvas" id="container" style="margin-bottom:50px">
      </div>
      </div>
      <div class="col-sm-6"style="margin:20px 0px 8px 0;">
@@ -447,7 +447,7 @@
   </div>
 
   <div class="col-sm-6" style="width: 100%;  margin-left:15px;"><h2>Pointers for Improvement<h2></div>
-<div class="modalcontainer" style="margin-bottom:50px; margin-left:25px;">
+<div class="modalcontainer" style="margin-bottom:50px; margin-left:15px; margin-top:10px;">
  <div class="row align-items-center mt-2">
 
 @include ('layouts.modaladvice')

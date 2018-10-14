@@ -30,6 +30,7 @@
 
     </div>
   </div>
-    @include ('layouts.footer')
+
   </body>
+      @include ('layouts.footer')
 </html>
