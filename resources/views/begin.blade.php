@@ -225,5 +225,5 @@ input::placeholder {
 
 
   @section ('content')
-
+      @include ('layouts.footer')
 @endsection
