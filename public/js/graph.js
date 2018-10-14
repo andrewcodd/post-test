@@ -16,7 +16,7 @@
 
 $(document).ready(function(){
   $.ajax({
-    url: "http://avfww.com/answers",
+    url: "https://avfww.com/answers",
     method: "GET",
     dataType: "text",
     success: function(data) {

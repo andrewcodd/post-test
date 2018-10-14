@@ -82,46 +82,6 @@ input::placeholder {
 
 </style>
 
-<script>
-vHTML  SCSS  JS Result
-EDIT ON
- var $el = $("#very-specific-design");
-var elHeight = $el.outerHeight();
-var elWidth = $el.outerWidth();
-
-var $wrapper = $("#scaleable-wrapper");
-
-$wrapper.resizable({
-  resize: doResize
-});
-
-function doResize(event, ui) {
-
-  var scale, origin;
-
-  scale = Math.min(
-    ui.size.width / elWidth,
-    ui.size.height / elHeight
-  );
-
-  $el.css({
-    transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
-  });
-
-}
-
-var starterData = {
-  size: {
-    width: $wrapper.width(),
-    height: $wrapper.height()
-  }
-}
-doResize(null, starterData);
-</script>
-
-<div class="scaleable-wrapper" id="scaleable-wrapper">
-
-  <div class="very-specific-design" id="very-specific-design">
 <div style="background-color=#3f3f3f">
 <div class="container" id="example1">
 
@@ -247,9 +207,7 @@ doResize(null, starterData);
 
 
 </div>
-</div>
 
-</div>
 
 
   @if (count($errors))

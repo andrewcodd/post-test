@@ -128,7 +128,7 @@ $results= test::orderBy('id', 'desc')->select(
   )->first();
 $array = $user->toArray();
 $output = (array_slice($array, 1, 3));
-$userLocate = "http://avfww.com/results?" . http_build_query( $output ) . "\n";
+$userLocate = "https://avfww.com/results?" . http_build_query( $output ) . "\n";
 return view('sunburst.show1', compact('user','userLocate','results'));
 //    }
 //

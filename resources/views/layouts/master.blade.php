@@ -19,7 +19,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <!-- Custom styles for this template -->
-    <link href="http://avfww.com/css/app.css" rel="stylesheet">
+    <link href="https://avfww.com/css/app.css" rel="stylesheet">
   </head>
 
   <body>

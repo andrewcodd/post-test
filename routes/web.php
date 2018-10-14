@@ -111,7 +111,7 @@ $var_user_id = (array_slice(array_values($result[0]), 1, 1));
 //}
 //return $data; //this gives exactly what looking for in js char
 //return $result;
-$resultslink = "http://avfww.com/results?" . http_build_query( $object1 ) . "\n";
+$resultslink = "https://avfww.com/results?" . http_build_query( $object1 ) . "\n";
 
 $user = User::where(function($userquery) use($var_user_id){
   $userquery->where('id','=', $var_user_id);
