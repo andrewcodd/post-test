@@ -480,7 +480,7 @@ var AA52Sum = Math.round(answers.slice(27,30).reduce((a,b)=>(a+Math.abs(b)),0)/s
 var AA61Sum = Math.round(answers.slice(30,33).reduce((a,b)=>(a+Math.abs(b)),0)/size0);
 var AA62Sum = Math.round(answers.slice(33,36).reduce((a,b)=>(a+Math.abs(b)),0)/size0);
 
-var thresh = 60;
+var thresh = 70;
 
 if (AA11Sum < thresh )
 {
