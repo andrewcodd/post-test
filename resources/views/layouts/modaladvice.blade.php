@@ -1,23 +1,6 @@
 
 <!-- The Modal -->
 
-<div id="myModalA03" class="modaladvice">
-
-  <!-- Modal content -->
-  <div class="modaladvice-content">
-    <div class="modaladvice-header" >
-      <h2 style="color:white;">Assimilates</h2>
-      </div>
-    <div class="modaladvice-body">
-      <p>Takes in what is happening across their organisation’s value chain, various conversations, financial models, trends, etc… to fully appreciate and understand what is going on and drives Net Present Value (NPV).</p>
-      <p> -	Take a step back and get a shape of you organisation’s and overall environment by conducting PESTEL (Political, Economic, Social, Technological, Environmental & Legal) examination.</P>
-      <p> -	See if you can identify any SWT (Strengths [Core Competencies], Weaknesses & Trends).</P>
-      <p> -	Identify the key reports your stakeholders use to manage your organisation, log and classify these.</P>
-      <p> - Take on short term assignments or projects to learn a lot about the new subject matter in a short period of time before moving onto the next one.</P>
-    </div>
-  </div>
-
-</div>
 
 <div id="myModalA01" class="modaladvice">
 
@@ -55,6 +38,26 @@
   </div>
 
 </div>
+
+<div id="myModalA03" class="modaladvice">
+
+  <!-- Modal content -->
+  <div class="modaladvice-content">
+    <div class="modaladvice-header" >
+      <h2 style="color:white;">Assimilates</h2>
+      </div>
+    <div class="modaladvice-body">
+      <p>Takes in what is happening across their organisation’s value chain, various conversations, financial models, trends, etc… to fully appreciate and understand what is going on and drives Net Present Value (NPV).</p>
+      <p> -	Take a step back and get a shape of you organisation’s and overall environment by conducting PESTEL (Political, Economic, Social, Technological, Environmental & Legal) examination.</P>
+      <p> -	See if you can identify any SWT (Strengths [Core Competencies], Weaknesses & Trends).</P>
+      <p> -	Identify the key reports your stakeholders use to manage your organisation, log and classify these.</P>
+      <p> - Take on short term assignments or projects to learn a lot about the new subject matter in a short period of time before moving onto the next one.</P>
+    </div>
+  </div>
+
+</div>
+
+
 
 <div id="myModalA04" class="modaladvice">
 
